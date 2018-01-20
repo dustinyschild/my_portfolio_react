@@ -26,6 +26,5 @@
     "API_URL": true,
     "expect": true
   },
-  "plugins": "react",
-  "extends": "eslint:recommended"
-  }
+  "plugins": [ "react" ]
+}
