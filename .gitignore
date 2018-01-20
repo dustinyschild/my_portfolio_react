@@ -102,4 +102,4 @@ $RECYCLE.BIN/
 # Data files
 data/
 # Dist files
-dist/
+build/
