@@ -1,11 +1,13 @@
 import { Component } from 'react';
 import reactDOM from 'react-dom';
 
+import Header from './components/Header';
+
 class App extends Component {
   render(){
     return (
       <div>
-        App
+        <Header/>
       </div>
     );
   }
