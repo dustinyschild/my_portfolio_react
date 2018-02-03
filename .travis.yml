@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - "8"
 sudo: required
+before_install: npm install eslint eslint-plugin-react
 script:
   - |
     (for dir in $(find $PWD -maxdepth 2 -name package.json -printf "%h\n"); do
