@@ -32,7 +32,6 @@
     "cors": "^2.8.4",
     "css-loader": "^0.28.5",
     "dotenv": "^4.0.0",
-    "eslint-plugin-react": "^7.6.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.30.1",
@@ -56,7 +55,6 @@
   },
   "devDependencies": {
     "deep-freeze": "0.0.1",
-    "eslint": "^4.9.0",
     "jest": "^21.2.1",
     "redux-devtools-extension": "^2.13.2"
   }
