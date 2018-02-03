@@ -25,6 +25,5 @@
   "globals": {
     "API_URL": true,
     "expect": true
-  },
-  "plugins": [ "react" ]
+  }
 }
