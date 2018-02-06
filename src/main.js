@@ -1,16 +1,6 @@
-import { Component } from 'react';
-import reactDOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import Header from './components/Header';
+import App from './components/App';
 
-class App extends Component {
-  render(){
-    return (
-      <div>
-        <Header/>
-      </div>
-    );
-  }
-}
-
-reactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
