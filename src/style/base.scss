@@ -1,0 +1,62 @@
+/*
+Color palete
+color: #493843
+color: #61988E
+color: #92977E
+color: #E4572E
+color: #EAEFD3
+*/
+
+body {
+  position: relative;
+  background-color: #493843;
+  font-family: 'Zilla Slab', serif;
+  border:#EAEFD3 solid 8px;
+  margin: auto;
+  color: white;
+}
+
+header {
+  display: block;
+  height: 30%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.projectscontainer a {
+  display: block;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+}
+
+a {
+  color: inherit;
+}
+
+.left {
+  float: left;
+  margin-left: 15px;
+}
+
+.right {
+  float: right;
+  margin-right: 15px;
+}
+
+section {
+  padding: 10px;
+}
+
+footer {
+  min-height: 75px;
+  color: #493843;
+  background-color: #EAEFD3;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+}
