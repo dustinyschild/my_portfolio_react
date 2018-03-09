@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-class {{pascalCase name}} extends Component {
+class AboutMe extends Component {
   static propTypes = {
     s: PropTypes.string.isRequired
   };
@@ -19,4 +19,4 @@ class {{pascalCase name}} extends Component {
   }
 }
 
-export default {{pascalCase name}};
+export default AboutMe;

@@ -1,18 +1,18 @@
 module.exports = function(plop) {
-  plop.setGenerator("component-test", {
-    description: "Generate Jest tests of React component",
+  plop.setGenerator('component-test', {
+    description: 'Generate Jest tests of React component',
     prompts: [
       {
-        type: "input",
-        name: "name",
-        message: "Component name"
+        type: 'input',
+        name: 'name',
+        message: 'Component name'
       }
     ],
     actions: [
       {
-        type: "add",
-        path: "src/components/{{pascalCase name}}.test.js",
-        templateFile: "./component-test.hbs"
+        type: 'add',
+        path: 'src/components/{{pascalCase name}}.test.js',
+        templateFile: './component-test.hbs'
       }
     ]
   });
