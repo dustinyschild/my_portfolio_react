@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Header from './Header';
 import ErrorNotImplemented from './ErrorNotImplemented';
+import MainNav from './MainNav';
 //import AboutMe from './components/AboutMe';
 
 class App extends React.Component {
@@ -13,8 +14,8 @@ class App extends React.Component {
     return (
       <div>
         <Header />
+        <MainNav />
         <Switch>
-          {/* <Route path="/lol" component={AboutMe} /> */}
           <Route
             path={routes.EMPTY}
             component={ErrorNotImplemented}
