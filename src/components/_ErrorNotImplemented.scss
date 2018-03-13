@@ -5,3 +5,11 @@
   padding: 15px 20%;
   margin: 30px;
 }
+
+.portfolio-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
