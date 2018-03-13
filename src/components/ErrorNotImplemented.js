@@ -1,24 +1,20 @@
 import './_ErrorNotImplemented.scss';
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class ErrorNotImplemented extends Component {
-  render() {
-    const { s } = this.props;
-
-    return (
-      <div className='not-implemented'>
-        Oops, Under Construction! If you would like to see a more complete portfolio of my work, please visit my non-reactified portfolio page at:
-        {' '}
-        <a
-          className='portfolio-link'
-          href='https://dustin-portfolio.herokuapp.com/'
-        >
-          My portfolio (non React)
-        </a>
-      </div>
-    );
-  }
-}
+const ErrorNotImplemented = () => {
+  return (
+    <div className='not-implemented'>
+      Oops, Under Construction! If you would like to see a more complete portfolio of my work, please visit my non-reactified portfolio page at:
+      {' '}
+      <a
+        className='portfolio-link'
+        href='https://dustin-portfolio.herokuapp.com/'
+      >
+        My portfolio (non React)
+      </a>
+    </div>
+  );
+};
 
 export default ErrorNotImplemented;
