@@ -1,5 +1,7 @@
+import './_Sidebar.scss';
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Route } from 'react-router-dom';
 
 const propTypes = {
   s: PropTypes.string.isRequired
@@ -7,8 +9,8 @@ const propTypes = {
 
 const Sidebar = ({ s }) => {
   return (
-    <div>
-      {s}
+    <div className='main-sidebar'>
+      Hello it's sidebar
     </div>
   );
 };
