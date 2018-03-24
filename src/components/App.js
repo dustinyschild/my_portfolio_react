@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        <MainNav />
+        <MainNav location={window.location} />
         <Switch>
           <Route
             path={routes.EMPTY}

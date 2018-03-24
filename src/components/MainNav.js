@@ -1,26 +1,30 @@
 import './_MainNav.scss';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { NOT_IMPLEMENTED, ABOUT_ME_ROUTE } from '../constants/routes';
+import * as routes from '../constants/routes';
 
-const MainNav = ()  => {
+const isActiveTab = (path, tabRoute) => {
+  return path.includes(tabRoute) ? 'active' : '';
+};
+
+const MainNav = ({ location })  => {
   return (
     <div className='main-nav'>
-      <div className='main-nav__tab'>
-        <Link to={NOT_IMPLEMENTED}>{/* Change route */}
+      <Link to={routes.ABOUT_ME_ROUTE}>{/* Change route */}
+        <div className={`main-nav__tab ${isActiveTab(location.pathname, routes.ABOUT_ME_ROUTE)}`}>
           About Me
-        </Link>
-      </div>
-      <div className='main-nav__tab'>
-        <Link to={NOT_IMPLEMENTED}>{/* Change route */}
+        </div>
+      </Link>
+      <Link to={routes.MY_WORK}>{/* Change route */}
+        <div className={`main-nav__tab ${isActiveTab(location.pathname, routes.MY_WORK)}`}>
           My Work
-        </Link>
-      </div>
-      <div className='main-nav__tab'>
-        <Link to={NOT_IMPLEMENTED}>{/* Change route */}
+        </div>
+      </Link>
+      <Link to={routes.MY_HOME_PROJECTS}>{/* Change route */}
+        <div className={`main-nav__tab ${isActiveTab(location.pathname, routes.MY_HOME_PROJECTS)}`}>
           My Home Projects
-        </Link>
-      </div>
+        </div>
+      </Link>
     </div>
   );
 };
