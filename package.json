@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Attackerator/attackerator2.0.git"
+    "url": "git+https://github.com/dustinyschild/my_portfolio_react.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Attackerator/attackerator2.0/issues"
+    "url": "https://github.com/dustinyschild/my_portfolio_react/issues"
   },
   "homepage": "https://github.com/Attackerator/attackerator2.0#readme",
   "dependencies": {
