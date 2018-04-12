@@ -1,0 +1,27 @@
+.main-nav {
+  padding-left: 18%;
+  height: 75px;
+  border-top: solid 1.5px #EAEFD3;
+  border-bottom: solid 1.5px #EAEFD3;
+
+  &__tab {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 25px;
+  }
+
+  &__tab:hover {
+      border-bottom: #EAEFD3;
+      background-color: #EAEFD3;
+      color: #493843
+    }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.active {
+  background-color: #f17751;
+}
