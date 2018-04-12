@@ -26,7 +26,7 @@ const MainNav = ({ location })  => {
         </div>
       </Link>
       <Link to={routes.GITHUB_DASHBOARD}>
-        <div className={`main-nav__tab ${isActiveTab(location.pathname, routes.MY_HOME_PROJECTS)}`}>
+        <div className={`main-nav__tab ${isActiveTab(location.pathname, routes.GITHUB_DASHBOARD)}`}>
           Github Projects
         </div>
       </Link>
